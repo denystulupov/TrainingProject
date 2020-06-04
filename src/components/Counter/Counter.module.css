@@ -1,0 +1,39 @@
+.counter{
+    margin-top: 50px;
+}
+
+.counter__value{
+    font-size: 100px;
+}
+
+.button{
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(220, 220, 220);
+}
+
+.button:active{
+    background-color: rgb(180, 180, 180);
+}
+
+.button.add{
+    width: 55px;
+    border-radius: 0 10px 0 0;
+    border-left: none;
+}
+
+.button.deg{
+    width: 55px;
+    border-radius: 10px 0 0 0;
+}
+
+.button.zero{
+    width: 110px;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+}

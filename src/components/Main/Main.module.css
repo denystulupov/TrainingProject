@@ -1,0 +1,11 @@
+.main{
+    background-color: rgb(240, 240, 240);
+    width: 70%;
+    height: 700px;
+    text-align: center;
+}
+
+.main h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
