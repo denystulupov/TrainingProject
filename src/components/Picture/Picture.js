@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+const Picture = () => {
         return (
             <div>
                 <img src="https://picsum.photos/800/600" alt="Картинка"/>
@@ -8,4 +8,4 @@ const Home = () => {
         );
 };
 
-export default Home;
+export default Picture;

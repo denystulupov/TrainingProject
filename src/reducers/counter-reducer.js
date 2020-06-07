@@ -2,8 +2,7 @@ const ADD_NUMBER = 'ADD_NUMBER';
 const SET_ZERO = 'SET_ZERO';
 
 const initialState = {
-    counter: 10,
-    abc: [1, 2, 3]
+    counter: 0
 };
 
 const counterReducer = (state = initialState, action) => {

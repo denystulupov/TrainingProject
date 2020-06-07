@@ -1,0 +1,36 @@
+.post{
+    padding: 10px;
+}
+
+.post p{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    background-color: aliceblue;
+    width: 550px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+}
+
+.post p span{
+    padding: 0 6px 2px 6px;
+    font-size: 20px;
+    position: absolute;
+    top: -23px;
+    right: -20px;
+    display: none;
+    border: 2px solid lightgrey;
+    border-radius: 50%;
+}
+
+.post p:hover span{
+    display: inline;
+    opacity: 20%;
+}
+
+.post p:hover span:hover{
+    opacity: 100%;
+    cursor: pointer;
+    background-color: aliceblue;
+}

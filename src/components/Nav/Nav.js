@@ -7,8 +7,8 @@ const Nav = () => {
         <nav className={classes.nav}>
             <h2>Navigation</h2>
             <div>
-                <NavLink to='/home' activeClassName={classes.activeLinc}>
-                    <b>Home</b>
+                <NavLink to='/picture' activeClassName={classes.activeLinc}>
+                    <b>Picture</b>
                 </NavLink>
             </div>
             <div>
@@ -17,8 +17,8 @@ const Nav = () => {
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/some1' activeClassName={classes.activeLinc}>
-                    <b>Some...1</b>
+                <NavLink to='/posts' activeClassName={classes.activeLinc}>
+                    <b>Posts</b>
                 </NavLink>
             </div>
             <div>

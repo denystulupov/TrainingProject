@@ -1,14 +1,14 @@
 import Counter from './Counter';
-import {addNumberAC, setZeroAC} from "../../reducers/counter-reduser";
+import {addNumberAC, setZeroAC} from "../../reducers/counter-reducer";
 import {connect} from "react-redux";
 
-let mapStateToProps = (state) => {
+const mapStateToProps = (state) => {
     return {
-        counter : state.counter
+        counter : state.counterPage.counter
     }
 };
 
-let mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = (dispatch) => {
     return {
         addNumber: (number) => {
             dispatch(addNumberAC(number))
