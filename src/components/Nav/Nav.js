@@ -22,8 +22,8 @@ const Nav = () => {
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/some2' activeClassName={classes.activeLinc}>
-                    <b>Some...2</b>
+                <NavLink to='/users' activeClassName={classes.activeLinc}>
+                    <b>Users(JSONPlaceholder)</b>
                 </NavLink>
             </div>
             <div>

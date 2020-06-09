@@ -4,6 +4,7 @@ import {Route} from "react-router-dom";
 import Picture from "../Picture/Picture";
 import CounterContainer from "../Counter/CounterContainer";
 import PostsContainer from "../Posts/Post/PostsContainer";
+import UsersContainer from "../Users/UsersContainer";
 
 const Main = () => {
     return(
@@ -13,6 +14,7 @@ const Main = () => {
             <Route path='/picture' component={Picture}/>
             <Route path='/counter' component={CounterContainer}/>
             <Route path='/posts' component={PostsContainer}/>
+            <Route path='/users' component={UsersContainer}/>
 
         </main>
     )

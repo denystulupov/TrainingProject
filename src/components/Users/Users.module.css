@@ -1,0 +1,10 @@
+.users{
+    margin-top: 20px;
+}
+
+.users a{
+    text-decoration: none;
+    color: navy;
+    font-style: italic;
+    font-weight: bold;
+}
