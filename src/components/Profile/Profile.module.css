@@ -1,0 +1,26 @@
+.profile{
+    margin-top: 50px;
+}
+
+.profile div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.profile table, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: start;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.profile img{
+    margin-top: 10px;
+    margin-right: 20px;
+    max-width: 137px;
+    max-height: 137px;
+    border-radius: 10px;
+}

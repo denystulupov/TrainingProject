@@ -5,6 +5,7 @@ import Picture from "../Picture/Picture";
 import CounterContainer from "../Counter/CounterContainer";
 import PostsContainer from "../Posts/Post/PostsContainer";
 import UsersContainer from "../Users/UsersContainer";
+import ProfileContainer from "../Profile/ProfileContainer";
 
 const Main = () => {
     return(
@@ -15,6 +16,7 @@ const Main = () => {
             <Route path='/counter' component={CounterContainer}/>
             <Route path='/posts' component={PostsContainer}/>
             <Route path='/users' component={UsersContainer}/>
+            <Route path='/profile/:id' component={ProfileContainer}/>
 
         </main>
     )
