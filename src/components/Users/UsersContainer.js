@@ -8,17 +8,18 @@ import Spinner from "../Spinner/Spinner";
 class UsersContainer extends Component {
 
     componentDidMount() {
-        this.props.toggleIsLoading(true);
         axios.get(`https://jsonplaceholder.typicode.com/users`)
             .then(response => {
-                this.props.setUsers(response.data);
-                this.props.toggleIsLoading(false)
+                this.props.setUsers(response.data)
             })
             .catch(() => {
-                this.props.toggleIsLoading(false);
                 this.props.toggleIsError(true);
                 }
             )
+    }
+
+    componentWillUnmount() {
+        this.props.toggleIsLoading(true)
     }
 
     render() {

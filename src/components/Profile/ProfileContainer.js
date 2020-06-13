@@ -23,6 +23,7 @@ class ProfileContainer extends Component {
     }
 
     render() {
+        console.log('PROFILE')
         if (this.props.profileIsLoading) {
             return <Spinner/>
         }

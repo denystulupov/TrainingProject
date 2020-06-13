@@ -4,7 +4,7 @@ const TOGGLE_IS_ERROR = 'TOGGLE_IS_ERROR';
 
 const initialState = {
     users: [],
-    isLoading: false,
+    isLoading: true,
     isError: false
 };
 
@@ -13,7 +13,8 @@ const usersReducer = (state = initialState, action) => {
         case SET_USERS:
             return {
                 ...state,
-                users: action.users
+                users: action.users,
+                isLoading: false
             };
         case TOGGLE_IS_LOADING:
             return {
@@ -23,7 +24,8 @@ const usersReducer = (state = initialState, action) => {
         case TOGGLE_IS_ERROR:
             return {
                 ...state,
-                isError: action.isError
+                isError: action.isError,
+                isLoading: false
             };
         default:
             return state
